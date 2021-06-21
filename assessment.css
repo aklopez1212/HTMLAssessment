@@ -1,0 +1,33 @@
+.subjectHeader {
+  color: limegreen;
+  font-family: sans-serif;
+}
+
+#scoreBoard, th, td {
+  border-style: solid;
+  color: teal;
+  text-align: center;
+}
+#teamRoster{
+  list-style-type: square;
+}
+#teamRoster > li > ul > li{
+  list-style-type: square;
+}
+.hyperLink{
+  color: teal;
+}
+.hyperLink:hover{
+  color: red;
+  text-decoration: none;
+}
+blockquote{
+  background-color: navy;
+  color: white;
+}
+#checkbox-grid{
+  list-style: none;
+}
+#teamRoster > li > denverbroncos{
+  background-image: image("Denver_Broncos_logo");
+}
